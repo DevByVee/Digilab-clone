@@ -1,0 +1,1191 @@
+  /* Extra large screens*/
+@media (max-width: 1500px) and (min-width: 992px) {
+    .container{
+        width: 95%;
+    }
+    header{
+      max-width: 100%;
+    }
+    header .logo{
+        font-size: 1.4rem;
+        padding-left: 20px;
+        padding-top: 7px;
+    }
+    
+    nav ul li a{
+        font-size: 1.1rem;
+        position: relative;
+        left: -75px;
+        padding: 9px 0;  
+    }
+    nav ul li .underline {
+      width: 0%;
+      height: 2px;
+      background: #31DE79;
+      position: relative;
+      bottom: 0;
+      left: -73px;
+      transition: width 0.3s ease;
+    }
+    nav ul li a:hover + .underline,
+    nav ul li a.active + .underline {
+        width: 100%;
+    }
+    
+    #home h5{
+        display: none;
+    }
+    #home .slide .texts{
+        /* padding: 0; */
+        position: relative;
+        left: 4%;
+        top: 0;
+        bottom: 0;
+        padding-top: 15%;
+        /* z-index: 99; */
+        /* border: 2px solid black; */
+    }
+    #home .slide .image{
+        width: 50%;
+    }
+    #home .slide .texts h3{
+        font-size: 1rem;
+    }
+    #home .slide .texts h4{
+        font-size: 44px;
+    }
+    #home .slide .texts p{
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    #home .slide .texts .touch{
+        width: 33%;
+    }
+  .texts h3,p,h4 {
+    width: 94%;
+    padding: 8px 0;
+    }
+
+
+ /* SERVICES */
+  #Services .container .first {
+    display: block;
+    height: 100%;
+    /* width: 100vw; */
+  }
+  #Services .container .first .content {
+    padding: 45px;
+    /* border: 2px solid black; */
+    position: relative;
+    width: 60%;
+  }
+  #Services .first .content-wrapper{
+    width: 100%;
+  }
+  #Services main button{
+    width: 32%;
+    padding: 20px;
+  }
+  #Services .container .first .sidebar{
+    width: 33vw;
+    height: 100%;
+  }
+
+
+  /* PROJECTS */
+  #projects .container{
+    width: 85%;
+  }
+  #projects .project-image img{
+    object-fit: cover;
+    /* width: 300px; */
+  }
+  #projects p{
+    text-align: center;
+    padding-left: 15%;
+    /* border: 2px solid black; */
+    width: 90%;
+  }
+  #projects .project-item .slide-text{
+    max-width: 76%;
+  }
+
+
+
+
+  /* ABOUT */
+  #about .container{
+    width: 100%;
+    margin-left: 4%;
+  }
+  #about .top img{
+    width: 40%;
+    height: 780px;
+    object-fit: cover;
+    /* height: 500px; */
+  }
+  #about .top .text{
+    padding-top: 90px;
+    /* border: 2px solid black; */
+    width: 51%;
+  }
+  .text .years{
+    background-color: rgba(49, 222, 121, 0.9);
+    padding: 25px 30px;
+    position: relative;
+    z-index: 8;
+    top: 7%;
+    left: -16%;
+    width: 31vw;
+  }
+  .years span{
+    font-size: 2rem;
+    padding-left: 60px;
+  }
+  .years h3{
+    font-weight: 400;
+    padding-left: 60px;
+  }
+  .bottom{
+    width: 100%;
+    margin-left: -2%;
+  }
+  .bottom-text{
+    margin-left: 15%;
+    overflow: hidden;
+  }
+  .bottom-text p {
+    padding-left: 100px;
+    /* border: 2px solid black; */
+  }
+  .bottom-card{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+
+
+  /* TESTIMONY */
+  #testimony .container{
+    width: 90%;
+  }
+  .client-text{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .client-text h4{
+    padding-left: 1px;
+  }
+  .client-card .client-icon{
+    top: 32%;
+    left: 53%;
+  }
+
+
+  /* BLOG */
+  #blog .container{
+    width: 95%;
+    margin-left: 10px;
+    padding: 0 50px;
+  }
+  #blog .top-text p{
+    display: block;
+    padding-left: 80px;
+  }
+  .blog-card .cards .blog-image img{
+    width: 100%;
+    height: 28vh;
+    object-fit: cover;
+  }
+  .blog-image .image-text{
+    width: 50%;
+  }
+  .blog-footer button{
+    width: 55%;
+  }
+
+
+
+  /* CONTACT */
+  #contact .container{
+    width: 82%;
+  }
+  #contact .contact-text p{
+    padding-left: 60px;
+  } 
+  .form .contact-form{
+    max-width: 100%;
+  }
+  .form .contact-map iframe{
+    max-width: 100%;
+  } 
+  .form .contact-form button{
+    width: 45%;
+  }
+
+  /* FOOTER */
+  #contact footer .container{
+    width: 100%;
+    margin: 0;
+    padding-left: 45px;
+    padding-right: 20px;
+  }
+  .copyright p{
+    text-align: center;
+    padding-left: 10%;
+    padding-bottom: 150px;
+  }
+}
+
+/* Small screens and laptops */
+@media only screen and (max-width: 992px){
+  .container{
+      width: 100%;
+  }
+  /* header */
+  header{
+      width: 100%;
+      position: fixed;
+  }
+  header nav {
+      position: relative;
+  }
+  header .container .navbar{
+      background-color: black;
+  }
+  header .container .navbar .logo{
+      color: var(--white);
+  }
+  .navbar .menu{
+      display: none;
+  }
+  .menu {
+      position: absolute;
+      top: -12px;
+      left: 95px;
+      right: 0;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: black;
+      /* transition: all 0.3s linear ease; */
+      width: auto;
+  }
+  header .logo{
+      padding: 15px 0;
+      position: absolute;
+      top: 0%;
+      left: 10%;
+      font-size: 1.5rem;
+      z-index: 99;
+  }
+  .menu li {
+      padding: 10px 0;
+      /* padding-left: 100px; */
+  }
+  .menu li a{
+      color: white;
+      font-size: 17px;
+      /* padding-left: 20px; */
+  }
+  nav ul li .underline {
+    width: 0%;
+    height: 2px;
+    background: #31DE79;
+    position: relative;
+    bottom: 0;
+    left: -18px;
+    transition: width 0.3s ease;
+  }
+  header .navbar .hamburger{
+      display: block;
+      color: var(--gray);
+      position: relative;
+      left: 75%;
+      padding-top: 10px;
+      padding-bottom: 8px;
+      font-size: 0.9rem;
+      letter-spacing: 0.2em;
+  }
+   
+  header .navbar input[type="checkbox"]:checked ~ .menu{
+      display: block;
+      position: relative;
+      padding-top: 50px;
+      padding-left: 2px;
+      transition: all 0.3s linear;
+      animation: drop 0.25s ease;
+      overflow: hidden;
+  }
+  @keyframes drop {
+      0%{
+          max-height: 0;
+      }
+      100%{
+          max-height: 250px;
+      }
+  }
+  header .navbar input[type="checkbox"]:checked ~ .close{
+      display: block;
+      font-size: 2rem;
+      color: var(--gray);
+      position: absolute;
+      top: 19px;
+      left: 80%;
+      transition: all 1s linear;
+      /* animation: drop2 0.3s ease; */
+  }
+  
+  header .navbar input[type="checkbox"]:checked ~ .hamburger{
+      display: none;
+  }
+  /* end of header */
+
+  /* HOME SECTION */
+
+ #home h5{
+  display: none;
+ }
+ #home .slide .image{
+    width: 300%;
+ }
+ .slide img{
+  width: 100%;
+  filter: brightness(50%);
+ }
+ #home .slide .texts{
+  position: absolute;
+  top: 31%;
+  left: 1%;
+  color: var(--white);
+  text-align: center;
+  max-width: 100%;
+  padding: 20px 0px;
+  z-index: 99;
+  /* border: 1px solid black; */
+}
+#home .slide .texts h3{
+  font-size: 1rem;
+}
+#home .slide .texts h4{
+  font-size: 2.8rem;
+}
+#home .slide .texts p{
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 100%;
+  font-size: 1.4rem;
+  padding: 0;
+  padding: 23px 17px;
+}
+.texts h3,
+p,
+h4 {
+width: 100%;
+padding: 8px 0;
+}
+#home .slide .texts .touch{
+  width: 28%;
+}
+#home .owl-carousel .owl-dots {
+  display: flex;
+  position: absolute;
+  left: 47%;
+  top: 96%;
+  z-index: 99;
+}
+
+
+/* SERVICES */
+#Services .container .first {
+  display: block;
+  height: 100%;
+  /* width: 100vw; */
+}
+#Services .container .first .content {
+  padding: 40px;
+  /* border: 2px solid black; */
+  position: relative;
+  width: 80%;
+  /* margin-left: 2%;x */
+}
+#Services main button{
+  width: 32%;
+  padding: 20px;
+}
+#Services .container .first .sidebar{
+  width: 30vw;
+  height: 70%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* second */
+ .mini {
+    position: relative;
+    left: 42%;
+    width: 100%;
+    z-index: 9;
+  }
+.card-text h4{
+  white-space: nowrap;
+}
+.mini-card .card-text{
+  width: 48%;
+  position: relative;
+}
+
+
+
+
+
+/* PROJECTS */
+#projects{
+  max-width: 100%;
+}
+#projects .container{
+  width: 75%;
+  /* margin: auto; */
+}
+#projects p{
+  text-align: center;
+}
+
+
+
+
+/* ABOUT */
+#about{
+  max-width: 100%;
+}
+#about .container{
+  width: 100%;
+  margin-left: 4%;
+}
+#about .top img{
+  width: 45%;
+  height: 780px;
+  object-fit: cover;
+  /* height: 500px; */
+}
+#about .top .text{
+  padding-top: 90px;
+  /* border: 2px solid black; */
+  width: 50%;
+}
+.text .years{
+  background-color: rgba(49, 222, 121, 0.9);
+  padding: 25px 30px;
+  position: relative;
+  z-index: 8;
+  top: 7%;
+  left: 0;
+  width: 35vw;
+}
+.years span{
+  font-size: 2rem;
+  padding-left: 3px;
+}
+.years h3{
+  font-weight: 400;
+  padding-left: 3px;
+}
+.bottom{
+  width: 100%;
+  margin-left: -2%;
+}
+.bottom-text{
+  margin-left: 10%;
+  overflow: hidden;
+}
+.bottom-text p {
+  padding-left: 70px;
+  margin-left: -20px;
+  /* border: 2px solid black; */
+}
+.bottom-card{
+  width: 90%;
+  margin-left: 5%;
+}
+
+
+
+
+/* TESTIMONY */
+#testimony .client-text{
+  width: 33vw;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#testimony .owl-carousel .owl-dots{
+  position: relative;
+  left: -7px;
+}
+.client-text h4{
+  padding-right: 60px;
+}
+.client-card .client-icon{
+  top: 30%;
+  left: 53%;
+}
+#testimony .client-card img{
+  left: 25%;
+}
+
+
+
+/* BLOG */
+#blog{
+  max-width: 100%;
+}
+#blog .top-text p{
+  margin-left: -110px;
+}
+#blog .blog-card{
+  display: block;
+  width: 60%;
+  margin-left: 20%;
+}
+.blog-card .cards{
+  margin-bottom: 50px;
+}
+
+#blog .container{
+  width: 90%;
+  /* margin: 0; */
+  padding-left: 50px;
+  /* padding: 0 50px; */
+}
+.blog-card .cards .blog-image img{
+  width: 100%;
+  height: 28vh;
+  object-fit: cover;
+}
+.blog-image .image-text{
+  width: 32%;
+}
+.blog-footer button{
+  width: 32%;
+}
+
+
+
+/* CONTACT */
+#contact .container{
+  width: 75%;
+}
+#contact .contact-text p{
+  padding: 0px 10px;
+}
+#contact .contact-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+#contact .contact-cards .info{
+  width: 100%;
+}
+.form .contact-form{
+  max-width: 100%;
+}
+.form .contact-map iframe{
+  max-width: 107%;
+} 
+.form .contact-form button{
+  width: 67%;
+}
+
+/* FOOTER */
+#contact footer .container{
+  width: 100%;
+  margin: 0;
+  padding-left: 45px;
+  padding-right: 20px;
+}
+.copyright p{
+  text-align: center;
+  padding-left: 1%;
+  padding-bottom: 150px;
+}
+
+}
+
+/* Ipads and tablets */
+@media only screen and (max-width: 780px){
+  /* header */
+  header{
+      height: auto;
+      width: 100%;
+  }
+  header nav {
+      position: relative;
+  }
+  header .logo{
+      padding: 15px 0;
+      position: absolute;
+      top: 0%;
+      left: 8%;
+      font-size: 1.5rem;
+  }
+  .menu li {
+      padding: 15px 20px;
+  }
+  .menu {
+      position: relative;
+      top: 92%;
+      left: 42px;
+      right: 0;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      padding-left: 0px;
+      padding-bottom: 30px;
+      transition: all 1s linear;
+  }
+  header .navbar input[type="checkbox"]:checked ~ .close{
+      display: block;
+      font-size: 2rem;
+      color: var(--gray);
+      position: absolute;
+      top: 19px;
+      left: 85%;
+      transition: all 1s linear;
+      animation: drop2 0.3s linear forwards;
+  }
+  #home .slide .texts{
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      position: absolute;
+      top: 25%;
+      left: 3%;
+      color: var(--white);
+     text-align: center;
+      max-width: 92%;
+      padding: 20px 0px;
+      z-index: 99;
+  }
+    #home .slide .texts h3{
+      font-size: 1rem;
+  }
+    #home .slide .texts p{
+      color: rgba(255, 255, 255, 0.7);
+      max-width: 98%;
+      font-size: 1.4rem;
+      padding-left: 2%;
+  }
+    #home .slide .texts .touch{
+      width: 40%;
+  }
+   #home  .owl-carousel .owl-dots {
+      display: flex;
+      position: absolute;
+      left: 35%;
+      top: 97%;
+      z-index: 99;
+  }
+  
+
+
+
+  /* SERVICES */
+  #Services .container .first {
+      display: block;
+      height: 100%;
+      /* width: 100vw; */
+  }    
+  #Services .container .first .sidebar {
+      width: 67vw;
+      height: 47%;
+      margin-top: 17px;
+      position: relative;
+      left: 10%;
+      /* z-index: 2; */
+  }  
+  #Services .container .first .content{
+      top: -7%;
+      width: 90%;
+      left: 8%;
+  }
+  #Services .container .first .content-wrapper {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-top: 10px;
+  }
+  #Services .content-wrapper p{
+      padding-bottom: 20px;
+  }
+  #Services main button{
+      width: 37%;
+  }
+
+  /* second */
+  .mini {
+    position: relative;
+    left: 20%;
+    width: 100%;
+    z-index: 9;
+  }
+  .card-text h4{
+    white-space: nowrap;
+  }
+  .mini-card .card-text{
+    /* border: 2px solid black; */
+    width: 70%;
+    position: relative;
+    /* left: 20px; */
+  }
+  .mini-card .angle {
+    /* border: 2px solid black; */
+    padding-top: 30px;
+    padding-left: 5%;
+    /* -left: 150px; */
+  }
+
+ 
+    
+  
+
+
+
+  /* PROJECTS */
+  #projects .container{
+  width: 68%;
+ }
+ #projects .project-image img{
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+ }
+
+
+/* ABOUT */
+#about .top img{
+  display: none;
+}
+#about .top .text{
+  width: 90%;
+  padding: 70px 20px;
+}
+.text .years{
+  width: 50vw;
+  padding: 20px 20px;
+}
+
+.bottom{
+  max-width: 100%;
+  margin-left: -2%;
+}
+.bottom-text{
+  margin-left: 9%;
+  max-width: 100%;
+  /* border: 2px solid black; */
+  overflow: hidden;
+}
+.bottom-text p{
+  padding-left: 30px;
+  margin-left: 3px;
+}
+.bottom-card{
+  display: block;
+  margin-left: 1%;
+  /* margin-left: 5%; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 88%;
+  flex-wrap: wrap; */
+}
+.bottom-card img{
+  width: 200px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card{
+  padding-bottom: 50px;
+  margin-left: 20px;
+}
+.card h3{
+  font-size: 1.3rem;
+}
+.card h5{
+  font-size: 0.9rem;
+}
+
+
+
+
+/* TESTIMONY */
+#testimony .client-card .client-text{
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 45px;
+  border-radius: 3%;
+}
+.client-card{
+  width: 100%;
+}
+#testimony .client-card img{
+  top: 10%;
+  left: 35%;
+}
+.client-card .client-icon{
+  left: 53%;
+  top: 22.5%;
+}
+.client-text p{
+  font-size: 1.9rem;
+  padding-bottom: 25px;
+}
+.client-text h4{
+  padding-right: 60px;
+}
+
+
+
+
+/* BLOG */
+#blog .blog-card{
+  width: 80%;
+  margin-left: 1%;
+}
+#blog .container{
+  width: 89%;
+  margin-right: 48px;
+}
+#blog .top-text{
+  margin-left: -20px;
+}
+#blog .top-text p{
+  padding-left: 10px;
+  margin: 0;
+}
+.cards .blog-image .image-text{
+  /* bottom: 268px; */
+  /* max-width: 40%; */
+  padding-right: 130px;
+}
+.blog-footer button{
+  width: 38%;
+}
+
+
+
+/* CONTACT */
+#contact .container{
+  width: 100%;
+  margin: 0;
+  padding-left: 30px;
+}
+#contact .contact-text p{
+  padding-right: 50px;
+}
+#contact .contact-cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+#contact .contact-cards .info{
+  width: 95%;
+}
+#contact .container .form{
+  width: 95%;
+  display: block;
+}
+.form .contact-form{
+  max-width: 100%;
+}
+.form .contact-map iframe{
+  width: 100%;
+} 
+
+/* FOOTER */
+#contact footer .container{
+  padding-left: 45px;
+  padding-right: 20px;
+}
+footer .container{
+  display: block;
+  padding-bottom: 100px;
+  gap: 20px;
+}
+.footer-about{
+  width: 95%;
+  padding-bottom: 10%;
+}
+.footer-links{
+  width: 100%;
+  padding-bottom: 7%;
+}
+.footer-services{
+  width: 100%;
+  padding-bottom: 7%;
+}
+.question{
+  width: 100%;
+  padding-bottom: 7%;
+}
+
+}
+
+/* mobile devices */
+@media only screen and (max-width: 480px){
+  /* header */
+    header{
+      height: auto;
+      width: 100%;
+  }
+  header nav {
+      position: relative;
+  }
+  header .logo{
+      padding: 15px 0;
+      padding-left: 10px;
+      position: absolute;
+      top: 0%;
+      font-size: 1.5rem;
+  }
+  .menu li {
+      padding: 15px 20px;
+  }
+  .menu {
+      position: relative;
+      right: 0;
+      left: 27px;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      padding-left: 0px;
+      padding-bottom: 30px;
+      transition: all 1s linear;
+  }
+  header .navbar input[type="checkbox"]:checked ~ .close{
+      display: block;
+      font-size: 2rem;
+      color: var(--gray);
+      position: absolute;
+      top: 15px;
+      left: 86%;
+      transition: all 1s linear;
+      animation: drop2 0.3s linear forwards;
+  }
+  #home .slide .texts{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    /* position: absolute; */
+    top: 26%;
+    left: 3%;
+    color: var(--white);
+   text-align: center;
+    max-width: 92%;
+    padding: 20px 0px;
+    z-index: 9;
+}
+  #home .slide .texts .touch{
+      padding: 20px;
+      width: 50%;
+  }
+  #home .slide .texts button{
+      width: 45%;
+      /* max-width: 55%; */
+  }
+   
+    #home .slide .texts h3{
+      font-size: 1rem;
+      /* color: green; */
+    }
+    #home .slide .texts h4{
+      font-size: 1.8rem;
+    }
+    #home .slide .texts p{
+      color: rgba(255, 255, 255, 0.7);
+      max-width: 98%;
+      font-size: 1.2rem;
+      padding-left: 2%;
+    }
+   #home .owl-carousel .owl-dots {
+      display: flex;
+      position: absolute;
+      left: 45%;
+      top: 95%;
+      z-index: 99;
+  }
+
+
+  /* SERVICES */
+  #Services .container .first{
+    height: 100%;
+  }
+  #Services .container{
+    width: 100%;
+  }
+  #Services .container .first .sidebar {
+    width: 87%;
+    height: 45%;
+    margin-top: 17px;
+    position: relative;
+    left: 1%;
+    /* z-index: 2; */
+ }  
+ #Services .container .first .content{
+    top: 0;
+    width: 100%;
+    left: 0;
+    /* white-space: nowrap; */
+ }
+ #Services .container .first .content-wrapper {
+  /* border: 1px solid black; */
+  width: 100%;
+  padding-top: 10px;
+}
+ 
+  #Services main button{
+      width: 55%;
+  }
+  
+  /* second */
+  .mini {
+    position: relative;
+    left: 10%;
+    width: 100%;
+  }
+  .mini-card{
+    width: 100%;
+  }
+  .mini-card p{
+    font-size: 1.1rem;
+    padding-left: 0;
+  }
+  .mini-card h4{
+    margin-top: 25px;
+  }
+  .mini-card .card-text{
+    /* border: 2px solid black; */
+    width: 76%;
+    position: relative;
+    left: 5px;
+    top: -25px;
+  }
+  .mini-card .angle {
+    /* border: 2px solid black; */
+    padding-top: 35px;
+    padding-left: 8%;
+    /* -left: 150px; */
+  }
+
+
+/* PROJECTS */
+#projects .container{
+  width: 72%;
+}
+#projects img{
+  max-width: 450px;
+  max-height: 390px;
+  object-fit: cover;
+}
+#projects .owl-dots{
+  left: 25%;
+  top: 100%;
+}
+
+
+
+/* ABOUT */
+#about .top .text{
+  padding-top: 90px;
+  /* border: 2px solid black; */
+  width: 90%;
+  padding: 50px 0;
+}
+.text .years{
+  width: 100%;
+  padding: 20px 10px;
+}
+#about .bottom-text{
+  width: 100%;
+  padding: 0;
+  margin-left: -8%;
+  border: none;
+}
+#about .bottom-text h5{
+  padding-left: 30px;
+}
+.bottom-text h3{
+  padding-left: 30px;
+}
+.bottom-text p{
+  /* border: 2px solid black; */
+  /* width: 100%; */
+  padding-left: 40px;
+  /* padding-left: 30px; */
+  /* margin-left: 20px; */
+}
+
+
+
+
+/* TESTIMONY */
+#testimony .container{
+  width: 100%;
+}
+#testimony .client-card .client-text{
+  /* width: 170%; */
+  padding-left: 29px;
+  padding-right: 35px;
+  border-radius: 3%;
+}
+.client-card{
+  width: 95%;
+}
+#testimony .client-card img{
+  top: 10%;
+  left: 32%;
+}
+.client-card .client-icon{
+  left: 53%;
+  top: 22.5%;
+}
+.client-text p{
+  font-size: 1.9rem;
+  padding-bottom: 25px;
+}
+.client-text h4{
+  padding-right: 60px;
+}
+
+
+
+/* BLOG */
+#blog .top-text p{
+  margin-left: -1px;
+}
+#blog .blog-card{
+  width: 90%;
+  margin-left: 1%;
+}
+.cards .blog-image .image-text{
+  width: 41%;
+}
+.blog-footer button{
+  width: 55%;
+}
+
+
+
+/*  CONTACT */
+#contact .container{
+  width: 100%;
+  margin: 0;
+  padding-left: 20px;
+}
+.form .contact-form button{
+  width: 85%;
+}
+}
